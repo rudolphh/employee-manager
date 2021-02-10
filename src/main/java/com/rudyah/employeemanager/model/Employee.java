@@ -30,6 +30,5 @@ public class Employee implements Serializable {
     private String imageUrl;
 
     @Column(nullable = false, updatable = false)
-    @NonNull
     private String employeeId;
 }
